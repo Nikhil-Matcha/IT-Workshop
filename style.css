@@ -1,5 +1,5 @@
 * {
-    background-color: tomato;
+    background-color: pink;
 }
 
 h1 {
@@ -20,8 +20,13 @@ h1 {
     color: blue;
 }
 
+.desc {
+    color: midnightblue;
+    font-size: 18px;
+}
+
 p {
-    color: greenyellow;
+    color: maroon;
     font-size: 20px;
     font-family: monospace;
 }
@@ -33,6 +38,7 @@ em {
 
 table, th, td {
     border-collapse: collapse;
+    color: mediumorchid;
 }
 
 th, td {
