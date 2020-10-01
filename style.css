@@ -1,28 +1,11 @@
-* {
+body {
+    height: 100vh;
+    margin: 0;
     background-color: pink;
 }
 
 h1 {
     color: purple;
-}
-
-.center {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.red {
-    color: red;
-}
-
-.blue {
-    color: blue;
-}
-
-.desc {
-    color: midnightblue;
-    font-size: 18px;
 }
 
 p {
@@ -66,4 +49,28 @@ table {
 .column {
     flex: 33.33%;
     padding: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 10vh;
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: pink;
+    background-color: green;
 }
