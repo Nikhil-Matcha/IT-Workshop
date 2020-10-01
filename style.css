@@ -57,6 +57,12 @@ table {
     align-items: center;
 }
 
+.desc {
+    color: indigo;
+    font-style: italic;
+    font-size: 18px;
+}
+
 nav {
     height: 10vh;
     background-color: darkmagenta;
